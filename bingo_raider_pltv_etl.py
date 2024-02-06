@@ -11,7 +11,7 @@ import datetime
 domain = 'bingoraider-gp.indiesaga.club'
 package = 'com.bingo.skill.free.win.battle.gp'
 today_date = today = datetime.date.today()
-start_date = today_date - pd.DateOffset(days = 95)
+start_date = today_date - pd.DateOffset(days = 110)
 end_date = today_date - pd.DateOffset(days = 7)
 
 api_details = {'bundle_id': package, 'start': start_date, 'end':  end_date}
